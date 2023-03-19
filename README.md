@@ -1,5 +1,7 @@
 # Pixiv Plus
 
+![image](https://user-images.githubusercontent.com/55832499/226173712-a65b8b8e-3d0f-4417-a670-661b53cd9f2d.png)
+
 其实已经做了很久了，毕竟很讨厌P站的色情广告又不想用油猴脚本（
 
 这个样式是从自己的大样式表提出来的，谁都不喜欢那烦人的广告吧。
