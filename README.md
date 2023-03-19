@@ -17,7 +17,7 @@
 - Firefox [火狐商店](https://addons.mozilla.org/zh-CN/firefox/addon/styl-us)
 - 其他 [www.baidu.com/s?wd=stylus](https://www.baidu.com/s?wd=stylus)
 
-2. [点击此处安装或更新](https://github.com/xiaofeiTM233/Pixiv-plus/raw/main/index.user.css) [前往UserStyles.world 安装](https://userstyles.world/style/)
+2. [点击此处安装或更新](https://github.com/xiaofeiTM233/Pixiv-plus/raw/main/index.user.css) [前往UserStyles.world 安装](https://userstyles.world/style/8997/pixiv-plus)
 
 ## 功能
 
