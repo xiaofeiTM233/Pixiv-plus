@@ -1,0 +1,117 @@
+/* ==UserStyle==
+@name			Pixiv Plus
+@namespace		Pixiv-plus
+@version		1.0+20230319
+@description	Better Pixiv UI！
+@author			飞小RAN <xiaofeiTM233@vip.qq.com> (https://afox.tk)
+@homepageURL	https://github.com/xiaofeiTM233/Pixiv-plus
+@supportURL		https://club.afox.tk
+@updateURL		https://userstyles.world/api/style/8997.user.css
+@license		MIT
+
+@advanced dropdown SCROLL "滚动方式" {
+	OFF "箭头" <<<EOT
+	EOT;
+
+	ON "滚动栏" <<<EOT
+		.hkzusx {
+			width: 100%;
+		}
+		.wJpxo {
+			overflow: scroll visible;
+		}
+		.hkzusx {
+			overflow: scroll visible;
+		}
+	EOT;
+}
+
+@advanced dropdown BORDER "辨识边框" {
+	OFF "关" <<<EOT
+	EOT;
+
+	ON "开" <<<EOT
+		.wJpxo {
+			margin: 1em;
+			padding: 1em 1em 0 1em;
+			border: 2px solid #0002;
+			border-radius: 1em;
+		}
+		.cAicGw {
+			margin: 1em;
+			border: 2px solid #0002;
+			border-radius: 1em;
+		}
+	EOT;
+}
+==/UserStyle== */
+@-moz-document domain("www.pixiv.net") {
+	/*隐藏广告*/
+	/*明显广告*/
+	#root > div.charcoal-token > div > div.sc-1nr368f-0.beQeCv > div > div.sc-1nr368f-3.dkdRNk > aside > div,
+	#root > div.charcoal-token > div > div.sc-1nr368f-0.beQeCv > div > div.sc-1nr368f-3.dkdRNk > main > section > div.sc-1yvhotl-0.vkWNg > div.sc-1yvhotl-1.gpoeGt,
+	#root > div.charcoal-token > div > div.sc-1nr368f-0.beQeCv > div > div.sc-171jvz-0.sc-zfvkpm-0.gcrJTU.jqMLBd,
+	#root > div.charcoal-token > div > div.sc-12xjnzy-0.dIGjtZ > div.sc-12xjnzy-1.expahI,
+	.bisbq,
+	/*加入会员*/
+	.ffBnxA {
+		height: 1px!important;
+		overflow: hidden!important;
+		opacity: 1%;
+	}
+	/*其他广告*/
+	iframe {
+		height: 1px!important;
+		width: 1px!important;
+		opacity: 1%;
+	}
+	/*[[SCROLL]]*/
+	/*[[BORDER]]*/
+}
+@-moz-document domain("www.pixiv.net") {
+	/*界面美化*/
+	/*展开按钮背景*/
+	.efGgAX,
+	.JhCYj {
+		background: none!important;
+	}
+	#select-ahao-favorites {
+		background-color: rgba(0, 0, 0, 0.04);
+	}
+	/*项目列表*/
+	.dmxMkf {
+		margin: 0px auto;
+		padding-right: 72px;
+		padding-left: 72px;
+		width: 1224px;
+	}
+	@media (max-width: 1368px) {
+		.dmxMkf {
+			width: 1016px;
+		}
+	}
+	/*Tag*/
+	.gCnyXS {
+		padding: 0;
+	}
+	.wJpxo {
+		padding: 1em 1em 0 1em;
+	}
+	.kOHspG {
+		padding: 0 0.5em 0.5em 0;
+	}
+	.dmuQYY {
+		margin: 0;
+	}
+}
+@-moz-document domain("www.pixiv.net") {
+/**取自https://userstyles.world/style/5112
+pixiv-bookmark-removal-visibility
+**/
+	input.remove {
+		color: #f55!important;
+		font-weight: bold;
+		font-size: 16px!important;
+		font-style: italic;
+	}
+}
